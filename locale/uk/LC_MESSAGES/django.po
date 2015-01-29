@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-27 15:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: rempsy/views.py:47
+#, python-format
+msgid "User %(email)s is already registered!"
+msgstr ""
+
+#: rempsy/views.py:54 templates/index.html:18
+msgid "Регистрация"
+msgstr "Реєстрація"
+
+#: rempsy/views.py:54
+#, python-format
+msgid ""
+"Пройдите по ссылке для продолжения регистрации: http://%(host)s/"
+"activate_user/%(a_hash)s"
+msgstr ""
+
+#: templates/base.html:30
+msgid "Добро пожаловать"
+msgstr "Ласкаво просимо"
+
+#: templates/base.html:30
+msgid "Выйти"
+msgstr "Вийти"
+
+#: templates/base.html:51
+msgid "Главная"
+msgstr "Головна"
+
+#: templates/base.html:55
+msgid "Наши услуги"
+msgstr "Наші послуги"
+
+#: templates/base.html:67
+msgid "Специалисты"
+msgstr "Спеціалісти"
+
+#: templates/base.html:76
+msgid "Статьи"
+msgstr "Статті"
+
+#: templates/base.html:77
+msgid "Тесты"
+msgstr "Тести"
+
+#: templates/base.html:78
+msgid "Отзывы"
+msgstr ""
+
+#: templates/base.html:79
+msgid "Контакты"
+msgstr "Контакти"
+
+#: templates/index.html:10
+msgid "Пожалуйста, войдите"
+msgstr "Будь ласка, ввійдіть"
+
+#: templates/index.html:12
+msgid "Email адрес"
+msgstr "Email адреса"
+
+#: templates/index.html:14
+msgid "Пароль"
+msgstr ""
+
+#: templates/index.html:16
+msgid "Забыли пароль?"
+msgstr "Забули пароль?"
+
+#: templates/index.html:17
+msgid "Войти"
+msgstr "Ввійти"
+
+#: templates/register_success.html:8
+msgid "Вы успешно зарегистрировались!"
+msgstr "Ви успішно зареєструвались!"
+
+#: templates/register_success.html:9
+msgid "Войдите на сайт, используя ваш email адрес и пароль"
+msgstr "Ввійдіть на сайт, використовуючи вашу email адресу і пароль"

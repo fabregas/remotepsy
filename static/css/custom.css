@@ -1,0 +1,33 @@
+
+.banner {
+    color:#FFFFFF;
+    background-image:url("/static/img/banner.png");
+    background-repeat:repeat;
+    height: 70px;
+    padding-bottom: 5px;
+}
+
+.base_container {
+    padding-top: 125px;
+}
+
+body, .base-menu{
+    background-color: #EFE3AF;
+    border-style: none;
+}
+
+.menu-line {
+    padding-left: 0px;
+    padding-top: 5px;
+}
+
+.form-reg {
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#helloText {   
+    padding-top: 20px;
+    color: grey;
+}

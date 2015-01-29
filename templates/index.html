@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block base_content %}
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="row">
+          <div class="col-md-3">
+              <form class="form-signin" action="/">
+
+                  <h4 class="form-signin-heading">{% trans "Пожалуйста, войдите" %}</h4>
+                <label for="inputEmail" class="sr-only">Email адрес</label>
+                <input type="email" id="inputEmail" name="email" class="form-control" placeholder="{% trans "Email адрес" %}" required autofocus>
+                <label for="inputPassword" class="sr-only">Пароль</label>
+                <input type="password" id="inputPassword" name="password" class="form-control" placeholder="{% trans "Пароль" %}" required>
+                <div><span class="label label-danger" id="authError"></span></div>
+                <a href="/restore_password">{% trans "Забыли пароль?" %}</a>
+                <button class="btn btn-lg btn-primary btn-block" onclick="login();">{% trans "Войти" %}</button>
+                <button class="btn btn-primary btn-block" onclick="go_to_registration();">{% trans "Регистрация" %}</button>
+              </form>
+
+          </div>
+
+          <div class="col-md-9">
+              <div class="jumbotron">
+                <h1>Тут крутой текст с описанием сервиса бла бла бла ....</h1>
+
+              </div>
+          </div>
+      </div>
+
+
+
+{% endblock %}
+
